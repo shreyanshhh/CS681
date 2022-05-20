@@ -30,7 +30,7 @@
 	     
 	   </target>
 	   <target name="run" depends="compile">
-	   	<java classname="edu.umb.cs681.hw09.ConcurrentSingleton.java">
+	   	<java classname="edu.umb.cs681.hw09.ConcurrentSingleton">
 	   			<classpath refid="classpath"></classpath>
 	   		</java>
 	   
